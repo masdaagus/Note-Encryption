@@ -231,6 +231,7 @@ class _SettingsPageState extends State<SettingsPage> {
                             // show snackbar
                             ScaffoldMessenger.of(context).showSnackBar(
                               SnackBar(
+                                duration: Duration(milliseconds: 500),
                                 content: Text("Berhasil Update Kunci"),
                               ),
                             );

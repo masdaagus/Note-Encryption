@@ -85,18 +85,6 @@ class _AddEditNotePageState extends State<AddEditNotePage> {
     }
   }
 
-  // Future updateNote() async {
-  //   // await crypt();
-
-  //   final note = widget.note.copy(
-  //     // isImportant: isImportant,
-  //     // number: number,
-  //     title: title,
-  //     description: description,
-  //   );
-
-  //   await NotesDatabase.instance.update(note);
-  // }
 
   Future addNote() async {
     DES des = DES();

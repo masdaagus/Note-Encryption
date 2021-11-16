@@ -152,6 +152,7 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
     if (_decrypt == null) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
+          duration: Duration(milliseconds: 500),
           content: Text("Key Anda Salah"),
         ),
       );
